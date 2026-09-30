@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#24765c" />
+    <title>Lesson 3 - Gratitude</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Fraunces:opsz,wght@9..144,600;9..144,700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="header-inner">
+        <a class="brand" href="#top" aria-label="Basic English home">
+          <span class="brand-mark">B</span>
+          <span>BASIC ENGLISH</span>
+        </a>
+        <div class="lesson-label">LESSON 3 <span>/</span> GRATITUDE</div>
+      </div>
+    </header>
+
+    <main id="top" class="page-shell">
+      <section class="intro-panel" aria-labelledby="page-title">
+        <div class="eyebrow">BASIC ENGLISH · LESSON 3</div>
+        <h1 id="page-title">Gratitude</h1>
+        <p>Học cách cảm ơn, bày tỏ sự biết ơn và đáp lại lời cảm ơn trong giao tiếp hằng ngày.</p>
+      </section>
+
+      <section class="section-heading" aria-labelledby="section-title">
+        <div>
+          <p class="section-kicker">PHẦN I</p>
+          <h2 id="section-title">Basic sentences <span>Mẫu câu cơ bản</span></h2>
+        </div>
+        <div class="progress-wrap" aria-label="Tiến độ bài học">
+          <span id="progress-text">0 / 15 câu</span>
+          <div class="progress-track"><div id="progress-bar" class="progress-bar"></div></div>
+        </div>
+      </section>
+
+      <section class="exercise-panel">
+        <div class="instruction-row">
+          <p>Chọn nghĩa tiếng Việt phù hợp nhất với từng câu tiếng Anh.</p>
+          <span class="status-pill" id="status-pill">Chưa nộp bài</span>
+        </div>
+        <form id="quiz-form" class="quiz-list"></form>
+        <div class="quiz-actions">
+          <button class="button button-primary" id="check-button" type="button">Kiểm tra đáp án</button>
+          <button class="button button-secondary" id="reset-button" type="button">Làm lại</button>
+        </div>
+        <div id="result-panel" class="result-panel" aria-live="polite" hidden></div>
+      </section>
+
+      <section class="section-heading section-heading-second" aria-labelledby="ordering-title">
+        <div>
+          <p class="section-kicker">PHẦN II</p>
+          <h2 id="ordering-title">Sentence Ordering <span>Sắp xếp câu</span></h2>
+        </div>
+        <div class="drill-note">Nhấp vào từ để xếp thành câu hoàn chỉnh</div>
+      </section>
+
+      <section class="exercise-panel ordering-panel">
+        <div class="instruction-row">
+          <p>Nhấp vào từng từ theo đúng thứ tự. Nhấp lại vào từ trong khung để bỏ ra.</p>
+          <span class="status-pill" id="ordering-status">Chưa nộp bài</span>
+        </div>
+        <div id="ordering-list" class="ordering-list"></div>
+        <div class="quiz-actions">
+          <button class="button button-primary" id="check-ordering-button" type="button">Kiểm tra phần II</button>
+          <button class="button button-secondary" id="reset-ordering-button" type="button">Làm lại phần II</button>
+        </div>
+        <div id="ordering-result" class="result-panel" aria-live="polite" hidden></div>
+      </section>
+    </main>
+
+    <footer class="site-footer">BASIC ENGLISH <span>·</span> PRACTICE WITH PURPOSE</footer>
+    <script src="app.js"></script>
+  </body>
+</html>
