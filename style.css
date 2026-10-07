@@ -58,17 +58,12 @@ body {
   text-decoration: none;
 }
 
-.brand-mark {
-  width: 34px;
-  height: 34px;
-  display: grid;
-  place-items: center;
-  color: var(--navy);
-  background: var(--coral);
-  border-radius: 50%;
-  font-family: Georgia, serif;
-  font-size: 20px;
-  font-weight: 700;
+.brand-logo {
+  width: 52px;
+  height: 52px;
+  display: block;
+  flex: 0 0 auto;
+  object-fit: contain;
 }
 
 .lesson-label {
@@ -531,6 +526,7 @@ h2 span {
   .page-shell,
   .site-footer { width: min(100% - 28px, 1080px); }
   .header-inner { min-height: 68px; }
+  .brand-logo { width: 48px; height: 48px; }
   .lesson-label { font-size: 9px; }
   .page-shell { padding: 48px 0 55px; }
   .intro-panel { margin-bottom: 48px; padding: 39px 25px 35px; border-radius: 12px; }
